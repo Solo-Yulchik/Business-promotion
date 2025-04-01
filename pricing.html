@@ -6,23 +6,81 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/style.css"
+    />
     <title>Business-promotion</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">Product</a>
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="">Resources</a></li>
-        </ul>
-      </nav>
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
-      </ul>
+      <header class="header">
+        <div class="container header-box">
+          <nav class="header-nav">
+              <a
+                class="logo"
+                href="./index.html"
+                >Product</a
+              >
+            <ul class="nav-list">
+              <li>
+                <a
+                  class="nav-link "
+                  href="./index.html"
+                  >Product</a
+                >
+              </li>
+              <li>
+                <a
+                  class="nav-link"
+                  href="./customers.html"
+                  >Customers</a
+                >
+              </li>
+              <li>
+                <a
+                  class="nav-link current"
+                  href="./pricing.html"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a
+                  class="nav-link"
+                  href=""
+                  >Resources</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <ul class="header-list-button">
+            <li ">
+              <button class="header-btn header-sign-in"  type="button">Sign In</button>
+            </li>
+            <li >
+              <button class="header-btn header-sign-up"  type="button">Sign Up</button>
+            </li>
+          </ul>
+        </div>
     </header>
     <main>Pricing</main>
     <footer>
@@ -44,3 +102,4 @@
     </footer>
   </body>
 </html>
+
