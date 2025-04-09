@@ -40,7 +40,9 @@
               <a
                 class="logo"
                 href="./index.html"
-                >Product</a
+                ><svg class="header-logo-svg" width="40" height="36">
+                <use href="./images/symbol-defs.svg#icon-logo"></use>
+              </svg>Product</a
               >
             <ul class="nav-list">
               <li>
@@ -95,18 +97,21 @@
             </p>
             <ul class="hero-list">
               <li><button class="hero-btn-start" type="button">Get started</button></li>
-              <li><button class="hero-btn-watch" type="button">Watch the Video</button></li>
+              <li><button class="hero-btn-watch" type="button"> <svg class="hero-btn-svg" width="16" height="18">
+                    <use href="./images/symbol-defs.svg#icon-play"></use>
+                    </svg>
+                Watch the Video</button>
+              
+              </li>
             </ul>
           </div>
-          
-            <img
-              src="./images/hero-img.png"
-              alt="Illustration of four people using smartphones and tablets around a giant mobile device with social media icons."
-              width="610"
-              height="555"
-              class="hero-img"
-            />
-          
+              <img
+                src="./images/hero-img.png"
+                alt="Illustration of four people using smartphones and tablets around a giant mobile device with social media icons."
+                width="610"
+                height="555"
+                class="hero-img"
+              />
         </div>
       </section>
       <!-- Product -->
@@ -115,18 +120,42 @@
             <h2 class="product-title">Product was Built Specifically for You</h2>
             <ul class="product-list">
               <li class="product-item">
+                <div class="product-img">
+                  <svg class="product-svg" width="11"
+                height="18">
+                    <use href="./images/symbol-defs.svg#icon-click1"></use>
+                  </svg>
+                </div>
                 <h3 class="product-subtitle">First click tests</h3>
                 <p class="product-text">While most people enjoy casino gambling</p>
               </li>
               <li class="product-item">
+                <div class="product-img second">
+                  <svg class="product-svg" width="18"
+                height="18">
+                    <use href="./images/symbol-defs.svg#icon-line"></use>
+                  </svg>
+                </div>
                 <h3 class="product-subtitle">Design surveys</h3>
                 <p class="product-text">Sports betting, lottery and bingo playing for the fun</p>
               </li>
               <li class="product-item">
+                <div class="product-img third">
+                  <svg class="product-svg" width="16"
+                height="18">
+                    <use href="./images/symbol-defs.svg#icon-heart"></use>
+                  </svg>
+                </div>
                 <h3 class="product-subtitle">Preference tests</h3>
                 <p class="product-text">The Myspace page defines the individual</p>
               </li>
               <li class="product-item">
+                <div class="product-img fourth">
+                  <svg class="product-svg" width="14"
+                height="18">
+                    <use href="./images/symbol-defs.svg#icon-time"></use>
+                  </svg>
+                </div>
                 <h3 class="product-subtitle">Five second tests</h3>
                 <p class="product-text">Personal choices and the overall personality of the person</p>
               </li>
@@ -135,34 +164,38 @@
           </div>
       </section>
       <!-- Management -->
-      <section>
-        <h2><span>Effortless Validation for</span> Management</h2>
-        <p>
-          The Myspace page defines the individual, his or her characteristics,
-          traits, personal choices and the overall personality of the person.
-        </p>
-        <ul>
-          <li>
-            <h3>Accessory makers</h3>
-            <p>
-              While most people enjoy casino gambling, sports betting, lottery
-              and bingo playing for the fun
+      <section class="managment">
+      <div class="container managment-container">
+          <div class="managment-text-wrap">
+            <h2 class="managment-title"><span>Effortless Validation for</span> Management</h2>
+            <p class="managment-title-text">
+              The Myspace page defines the individual, his or her characteristics,
+              traits, personal choices and the overall personality of the person.
             </p>
-          </li>
-          <li>
-            <h3>Alterationists</h3>
-            <p>
-              If you are looking for a new way to promote your business that
-              won’t cost you more money.
-            </p>
-            <img
-              src="./images/management-img.png"
-              alt="Illustration of documents and files with text and images, arranged in a layered style with green leaves in the background."
-              width="540"
-              height="500"
-            />
-          </li>
-        </ul>
+            <ul class="managment-list">
+              <li class="management-item">
+                <h3 class="managment-subtitle">Accessory makers</h3>
+                <p class="managment-text">
+                  While most people enjoy casino gambling, sports betting, lottery
+                  and bingo playing for the fun
+                </p>
+              </li>
+              <li class="management-item">
+                <h3 class="managment-subtitle">Alterationists</h3>
+                <p class="managment-text">
+                  If you are looking for a new way to promote your business that
+                  won’t cost you more money.
+                </p>
+          </div>
+              <img class="management-img"
+                src="./images/management-img.png"
+                alt="Illustration of documents and files with text and images, arranged in a layered style with green leaves in the background."
+                width="540"
+                height="500"
+              />
+            </li>
+          </ul>
+      </div>
       </section>
       <!-- Support -->
       <section>
@@ -223,52 +256,56 @@
           height="500"
         />
       </section>
-      <!-- OurExpert -->
-      <section>
-        <h2>Quick & Easy Process</h2>
-        <p>
-          Do you require some help for your project: Conception workshop,
-          prototyping, marketing strategy, landing page, Ux/UI?
-        </p>
-        <ul>
-          <li>
-            <img
-              src="./images/expert-one.png"
-              alt="the image shows a woman who seems to be telling us: I can take care of your pitch"
-              width="98"
-              height="98"
-            />
-            <p>I can take care of your pitch</p>
-          </li>
-          <li>
-            <img
-              src="./images/expert-two.png"
-              alt="the image shows a woman who seems to be telling us: I can prototype your app"
-              width="98"
-              height="98"
-            />
-            <p>I can prototype your app</p>
-          </li>
-          <li>
-            <img
-              src="./images/expert-three.png"
-              alt="the image shows a man who seems to be telling us: I can take care of your pitch"
-              width="98"
-              height="98"
-            />
-            <p>I can take care of your pitch</p>
-          </li>
-          <li>
-            <img
-              src="./images/expert-four.png"
-              alt="the image shows a man who seems to be telling us: I can help marketing strategy"
-              width="98"
-              height="98"
-            />
-            <p>I can help marketing strategy</p>
-          </li>
-        </ul>
-        <button type="button">Contact our expert</button>
+      <!-- Process -->
+      <section class="process">
+        <div class="container process-container">
+          <h2 class="process-title">Quick & Easy Process</h2>
+          <p class="process-text">
+            Do you require some help for your project: Conception workshop,
+            prototyping, marketing strategy, landing page, Ux/UI?
+          </p>
+          <ul class="process-list">
+            <li class="process-item">
+              <img class="process-img"
+                src="./images/expert-one.png"
+                alt="the image shows a woman who seems to be telling us: I can take care of your pitch"
+                width="98"
+                height="98"
+              />
+              <p class="process-list-text">I can take care of your pitch</p>
+            </li>
+            <li class="process-item">
+               <p class="process-list-text">I can prototype your app</p>
+              <img class="process-img"
+                src="./images/expert-two.png"
+                alt="the image shows a woman who seems to be telling us: I can prototype your app"
+                width="98"
+                height="98"
+              />
+             
+            </li>
+            <li class="process-item">
+              <p class="process-list-text">I can take care of your pitch</p>
+              <img class="process-img"
+                src="./images/expert-three.png"
+                alt="the image shows a man who seems to be telling us: I can take care of your pitch"
+                width="98"
+                height="98"
+              />
+              
+            </li>
+            <li class="process-item">
+              <img class="process-img"
+                src="./images/expert-four.png"
+                alt="the image shows a man who seems to be telling us: I can help marketing strategy"
+                width="98"
+                height="98"
+              />
+              <p class="process-list-text">I can help marketing strategy</p>
+            </li>
+          </ul>
+          <button class="process-btn" type="button">Contact our expert</button>
+        </div>
       </section>
       <!-- Strategies -->
       <section>
@@ -426,26 +463,77 @@
         />
       </section>
     </main>
-    <footer>
-      <a
-        class="logo"
-        href="./index.html"
-        >Product</a
-      >
-      <p>Resource</p>
-      <ul>
-        <li><a href="">About Us</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">FAQ</a></li>
-      </ul>
-      <p>Legal Stuff</p>
-      <ul>
-        <li><a href="">Disclaimer</a></li>
-        <li><a href="">Financing</a></li>
-        <li><a href="">Privacy Policy</a></li>
-      </ul>
-      <p>Made With Love By Figmaland All Right Reserved</p>
+    <footer class="footer">
+      <div class="container">
+        <div class="container-footer">
+          <div class="footer-logo-soc-wrap">
+            <a
+                    class="logo logo-footer"
+                    href="./index.html"
+                    ><svg class="header-logo-svg" width="40" height="36">
+                    <use href="./images/symbol-defs.svg#icon-logo"></use>
+                  </svg>Product</a
+                  >
+                    <ul class="footer-soc-list">
+                      <li class="footer-soc-item">
+                          <a href="" class="footer-soc-link">
+                            <svg class="footer-soc-icon" width="24" height="24">
+                              <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                          </a>
+                        
+                      </li>
+                      <li class="footer-soc-item">
+                          <a href="" class="footer-soc-link">
+                            <svg class="footer-soc-icon" width="24" height="24">
+                              <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                          </a>
+                        
+                      </li>
+                      <li class="footer-soc-item">
+                          <a href="" class="footer-soc-link">
+                            <svg class="footer-soc-icon" width="24" height="24">
+                              <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                            </svg>
+                          </a>
+                        
+                      </li>
+                    </ul>
+          </div>
+          <div class="footer-resource-wrap">
+            <p class="footer-text">Resource</p>
+            <ul class="footer-list">
+              <li class="footer-item"><a class="footer-link" href="">About Us</a></li>
+              <li class="footer-item"><a class="footer-link" href="">Blog</a></li>
+              <li class="footer-item"><a class="footer-link" href="">Contact</a></li>
+              <li class="footer-item"><a class="footer-link" href="">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-stuff-wrap">
+            <p class="footer-text">Legal Stuff</p>
+            <ul class="footer-list">
+              <li class="footer-item"><a class="footer-link" href="">Disclaimer</a></li>
+              <li class="footer-item"><a class="footer-link" href="">Financing</a></li>
+              <li class="footer-item"><a class="footer-link" href="">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-form-wrap">
+            <p class="footer-text-form">knowing you're always on the best energy deal. 
+            </p>
+            <form class="footer-form">
+              <div class="footer-imput-svg">
+                <svg class="footer-icon" width="18"
+            height="28">
+                  <use href="./images/symbol-defs.svg#icon-mobile-screen"></use>
+                </svg>
+                <input class="footer-input" type="tel" name="user-tel" placeholder="Enter your phone number">
+              </div>
+            <button class="footer-btn" type="submit">Sign up Now</button></form>
+          </div>
+        </div>
+        <p class="footer-text-bottom">Made With Love By Figmaland All Right Reserved</p>
+      </div>
     </footer>
   </body>
 </html>
